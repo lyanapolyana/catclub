@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica&family=Inter:wght@400;600;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts-online.ru/fonts/paper:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="cats"></div>
+        <h1>Регистрация</h1>
+
+        <form action="#" method="get" class="registration">
+            <input type="text" name="username" placeholder="Имя*" required>
+            <input type="tel" name="tel" placeholder="+7 (___) ___-__-__">
+            <input type="email" name="email" placeholder="E-mail*" required>
+            <p class="narezka">Хотите получать смешную нарезку котят на почту?</p>
+            <div class="radio">
+                <div class="form-radio-item">
+                    <label for="yes">Да</label>
+                    <input type="radio" name="mailing" id="yes" checked>
+                </div>
+                <div class="form-radio-item">
+                    <label for="no">Нет</label>
+                    <input type="radio" name="mailing" id="no">
+                </div>
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+        </form>
+        <div class="gotomain">
+            <a href="./index.html" class="gotomainsilka">На главную</a>
+        </div>
+    </div>
+</body>
+
+</html>
