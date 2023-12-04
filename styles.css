@@ -1,3 +1,8 @@
+@font-face {
+    font-family: paper;
+    src: url(fonts/Paper.otf);
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -47,7 +52,7 @@ body {
 h1 {
     color: #000000;
     text-align: center;
-    font-family: Paper;
+    font-family: paper;
     font-size: 48px;
     font-weight: 400;
     margin-bottom: 24px;
